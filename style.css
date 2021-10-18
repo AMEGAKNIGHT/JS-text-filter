@@ -1,0 +1,37 @@
+#myInput {
+    width:100%;
+    padding: 12px 20px 12px 5px;
+    border: 2px solid  black;
+    margin-bottom: 12px;
+    color: rgb(230, 230, 230);
+    background-color: rgba(58, 58, 58);
+}
+
+#myUL {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUl li, a {
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: -1px;
+    background-color: rgb(110, 109, 109);
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+
+#myUL li, a.header {
+    background-color: rgb(23, 23, 24);
+    cursor: default;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+#myUL li, a:hover:not(.header) {
+    background-color:rgb(63, 61, 61);
+}
